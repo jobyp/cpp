@@ -1,6 +1,6 @@
-PROGRAMS=hw
+PROGRAMS=hw grade
 BOOST_ROOT=$(HOME)/local/boost
-CPPFLAGS=-Wall -I $(BOOST_ROOT) -g -O2 -save-temps
+CPPFLAGS=-Wall -I $(BOOST_ROOT) -g -O2 -marm
 CPP=g++
 
 .PHONY: all
