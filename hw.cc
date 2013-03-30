@@ -3,7 +3,6 @@
 #include <algorithm>
 #include <vector>
 
-
 void print_str(const std::string &s) 
 {
         std::cout << s << std::endl;
