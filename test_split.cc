@@ -16,15 +16,15 @@ int main()
 {
         string line;
 
-        // while(getline(cin, line)) {
+        while(getline(cin, line)) {
                 
-        //         const vector<string>& words = split(line);
+                const vector<string>& words = split(line);
                 
-        //         for(vector<string>::const_iterator it = words.begin();
-        //             it != words.end();
-        //             ++it)
-        //                 cout << *it << endl;
-        // }
+                for(vector<string>::const_iterator it = words.begin();
+                    it != words.end();
+                    ++it)
+                        cout << *it << endl;
+        }
 
         cout << "***" << strip(string("This is fun.\nYou shouldn't see this.")) << "***" << endl;
         
