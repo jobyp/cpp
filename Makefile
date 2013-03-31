@@ -6,7 +6,7 @@ LD:=g++
 LDFLAGS:=-Wall
 
 hw_OBJS:=hw.o
-grade_OBJS:=grade.o median.o student_info.o
+grade_OBJS:=grade.o median.o student_info.o student_grade.o
 
 ######################################################################
 

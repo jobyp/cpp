@@ -1,5 +1,5 @@
-#ifndef __STUDENT_INFO
-#define __STUDENT_INFO
+#ifndef __STUDENT_INFO_H
+#define __STUDENT_INFO_H
 
 #include <string>
 #include <vector>
@@ -15,4 +15,5 @@ struct Student_info {
 bool compare(const Student_info&, const Student_info&);
 std::istream& read(std::istream&, Student_info&);
 std::istream& read_hw(std::istream&, std::vector<double>&);
+
 #endif
