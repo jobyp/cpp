@@ -1,4 +1,4 @@
-PROGRAMS:=hw grade
+PROGRAMS:=hw grade split
 BOOST_ROOT:=$(HOME)/local/boost
 CPPFLAGS:=-Wall -I $(BOOST_ROOT) -g -O2 
 CPP:=g++
@@ -7,6 +7,7 @@ LDFLAGS:=-Wall
 
 hw_OBJS:=hw.o
 grade_OBJS:=grade.o median.o student_info.o student_grade.o
+split_OBJS:=split.o lib_str.o
 
 ######################################################################
 
