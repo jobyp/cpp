@@ -26,7 +26,7 @@ int main()
                         cout << *it << endl;
         }
 
-        cout << "***" << strip(string("This is fun.\nYou shouldn't see this.")) << "***" << endl;
+        // cout << "***" << strip(string("This is fun.\nYou shouldn't see this.")) << "***" << endl;
         
         return 0;
 }
